@@ -1,4 +1,4 @@
-<img src="C:\Users\akhma\BBPLK-Bekasi\logo.jpg" alt="pict" />
+<img src="logo.jpg" alt="pict" />
 
 # Program Pelatihan Berbasis Kompetensi
 
