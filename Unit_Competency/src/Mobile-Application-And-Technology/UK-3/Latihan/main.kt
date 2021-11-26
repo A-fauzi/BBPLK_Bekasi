@@ -9,7 +9,16 @@ fun main() {
 fun runResult(name: String = "Anonymous", run: (Int, Int)-> Int): Any {
     val greetings = "Hello $name"
 
-    val a = run (60, 40)
+    val a = run (60, 10)
+
+    when {
+        a > 5 -> {
+            println("Terlalu lama")
+        }
+        else -> {
+            println("Sangat cepat")
+        }
+    }
 
     return "$greetings, Waktu tiba kamu ${a}jam"
 
