@@ -24,4 +24,7 @@ fun main() {
     }
 
     println(names.size)
+    println(names.get(0))
+    println(names.indexOf("A"))
+    println(names.indexOf("A"))
 }
